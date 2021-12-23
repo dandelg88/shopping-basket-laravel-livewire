@@ -3,12 +3,23 @@
 namespace App\Http\Livewire;
 
 use Livewire\Component;
-use Illuminate\View\View;
+use Illuminate\Contracts\View\View;
 
 class AddToBasketButton extends Component
 {
+    /**
+     * @var int
+     */
     public $product_id;
+
+    /**
+     * @var int
+     */
     public $qty = 1;
+
+    /**
+     * @var int
+     */
     public $current_qty = 0;
 
     /**

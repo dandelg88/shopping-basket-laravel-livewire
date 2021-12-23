@@ -21,7 +21,7 @@ class ProductController extends Controller
     /**
      * Display product.
      *
-     * @param  Product  $product
+     * @param Product $product
      * @return View
      */
     public function show(Product $product): View

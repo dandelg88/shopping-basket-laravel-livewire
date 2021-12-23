@@ -5,6 +5,13 @@ namespace App\Repositories\Contracts;
 interface BasketRepositoryContract
 {
     /**
+     * Get basket's items quantity.
+     *
+     * @return array
+     */
+    public function all(): array;
+
+    /**
      * Add item to the basket.
      *
      * @param int $id
